@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CSharp_zero_ao_avancado.Fundamentos;
+using CSharp_zero_ao_avancado.EstruturaControle;
 
 namespace CursoCSharp {
     class Program {
@@ -18,6 +19,9 @@ namespace CursoCSharp {
                 {"Conversões - Fundamentos", Conversoes.Executar},
                 {"Operadores Aritimetricos - Fundamentos", OperadoresAritimetricos.Executar},
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
+                {"Operadores Lógicos - Fundamentos", OperadoresLogicos.Executar},
+
+                {"If - Estrutura de Controle", If.Executar},
             });
 
             central.SelecionarEExecutar();
