@@ -21,10 +21,12 @@ namespace CSharp_zero_ao_avancado.Fundamentos
             /// int (4bytes = -+2bi)
             /// long(8bytes)
             /// </summary>
+            
             byte idade = 45;
+            System.Console.WriteLine(idade);
 
             int menorValorInt = int.MinValue;
-            System.Console.WriteLine("Menor valor possivel do int "+ menorValorInt);
+            System.Console.WriteLine("Menor valor possivel do int " + menorValorInt);
 
             //Inteiro sem sinal
             uint populacaoBrasileira = 207_600_000;
@@ -34,8 +36,8 @@ namespace CSharp_zero_ao_avancado.Fundamentos
             long populacaoMundial = 7600000000;
             System.Console.WriteLine("Populacão mundial "+ populacaoMundial);
 
-            decimal distanciaEsntreEstrelas = decimal.MaxValue;
-            System.Console.WriteLine("Tamanho maximo decimal" + distanciaEsntreEstrelas);
+            decimal distanciaEntreEstrelas = decimal.MaxValue;
+            System.Console.WriteLine("Tamanho maximo decimal" + distanciaEntreEstrelas);
 
 
             //1 Letra usa aspas simples '' 
