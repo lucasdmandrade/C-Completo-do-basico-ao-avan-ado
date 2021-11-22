@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CSharp_zero_ao_avancado.Fundamentos;
 using CSharp_zero_ao_avancado.EstruturaControle;
+using CSharp_zero_ao_avancado.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -22,6 +23,9 @@ namespace CursoCSharp {
                 {"Operadores Lógicos - Fundamentos", OperadoresLogicos.Executar},
 
                 {"If - Estrutura de Controle", If.Executar},
+
+                {"Membros - Classes e Metodos", Membros.Executar},
+                {"Construtores - Classes e Metodos", Construtores.Executar},
             });
 
             central.SelecionarEExecutar();
