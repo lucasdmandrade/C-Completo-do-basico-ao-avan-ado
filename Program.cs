@@ -45,6 +45,7 @@ namespace CursoCSharp {
                 {"Array - Classes e Metodos", CSharp_zero_ao_avancado.Colecoes.Array.Executar},
                 {"List - Classes e Metodos", ColecoesList.Executar},
                 {"ArrayList - Classes e Metodos", ColecoesArrayList.Executar},
+                {"Set - Classes e Metodos", ColecoesSet.Executar},
             });
 
             central.SelecionarEExecutar();
