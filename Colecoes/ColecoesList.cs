@@ -11,6 +11,12 @@ namespace CSharp_zero_ao_avancado.Colecoes
             Nome = nome;
             Preco = preco;
         }
+         public override bool Equals(object obj)
+         {Produto outroProduto = (Produto) obj;
+            bool mesmoNome = Nome == outroProduto.Nome;
+            bool mesmoPreco = Preco == outroProduto.Preco;
+            return mesmoNome && mesmoPreco;
+         }
     }
     public class ColecoesList
     {
