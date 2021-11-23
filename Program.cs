@@ -48,6 +48,7 @@ namespace CursoCSharp {
                 {"Set - Classes e Metodos", ColecoesSet.Executar},
                 {"Queue - Classes e Metodos", ColecoesQueue.Executar},
                 {"Igualdade - Classes e Metodos", Igualdade.Executar},
+                {"Stack - Classes e Metodos", ColecoesStack.Executar},
             });
 
             central.SelecionarEExecutar();
